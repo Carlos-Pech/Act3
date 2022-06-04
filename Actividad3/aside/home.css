@@ -1,0 +1,28 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-color:#BE0F34;
+
+  }
+  body h1{
+      font-family: cursive;
+  }
+body h2{
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagen:hover {
+    border-radius: -100px;
+  }
+
+img{
+  width: 100%;
+  height: 100%;
+}
+.texto{
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

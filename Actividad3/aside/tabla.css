@@ -1,0 +1,33 @@
+
+table{
+   
+   width: 50%;
+	height: 500px;
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right:auto;
+    border-collapse: collapse;
+
+
+
+}
+th{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+td, th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding: right 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+} 
+tr {
+    font-family:fantasy;
+    color: black;
+}
+
+

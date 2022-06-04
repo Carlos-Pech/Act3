@@ -1,0 +1,19 @@
+*{
+
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+body{
+
+    background-image: url(escritorio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a:hover{
+    background-color: blue;
+    border-radius: 10px;
+
+}

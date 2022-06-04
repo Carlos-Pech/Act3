@@ -1,0 +1,90 @@
+
+html{
+    /* margin: 1000px;
+    padding: 1000px; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    min-width: 600px;
+    max-width: 1920px;
+    width: 1000px;
+    height: 1000px;
+    border: 10px solid color black;
+    background-color: black;
+  }
+  #informacion,
+  #experiencia,
+  #formacion,
+  #perfil,
+  #apt {
+    color: black;
+    font-family: Verdana; 
+    background: rgba(255, 255, 255, 0.3);
+    text-align: left;
+    border-radius: 10px;
+
+  }
+  
+  h1 {
+    color: black;
+    font-family: Verdana;
+    cursor: default;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: all 0.5s linear;
+    width: 1000px;
+    height: 100px;
+  }
+  h1:hover {
+    transition: all 0.6s ease;
+    box-shadow: 2px 2px 3px 5px rgba(0, 255, 255, 0.2);
+  }
+  /* #cuadrofoto {
+    float: right;
+    width: 20%;
+    padding-right: 30px;
+    padding-top: 5%;
+  } */
+  
+  #foto {
+    /* box-shadow: 2px 2px 3px 3px #666; */
+    width: 170px;
+    border-radius: 10%;
+    transition: all 0.5s linear;
+    float: right;
+  }
+  #foto:hover {
+    border-radius: 20%;
+    transition: all 0.5s cubic-bezier(0.29, 0.44, 0.94, 1.43); 
+    width: 45%;
+  }
+  
+  h2 {
+    padding-left: 8px;
+    padding-top: 5px;
+    transition: all 0.5s linear;
+  }
+  
+  #informacion:hover h2,
+  #formacion:hover h2,
+  #experiencia:hover h2,
+  #perfil h2,
+  #apt:hover h2 {
+    color: DarkBlue;
+    padding-left: 20px;
+    transition: all 0.5s cubic-bezier(0.98, -0.78, 0.03, 1.48);
+    
+  }
+  #experiencia{
+    width: 1000px;
+    height: 250px;
+    background-color: #666;
+  }

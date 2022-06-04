@@ -1,0 +1,96 @@
+
+#caja{
+    width: 100%;
+    height: 60%;
+    background-color: #5eb59a;
+}
+
+header {
+    width: 100%;
+    height: 30%;
+    background-color:#0e3958;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+}
+header p{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#evento{
+    width: 100%;
+    height: 50%;
+    background-color: #9292e9;
+    float: left;
+}
+img {
+    width: 100%;
+}
+main {
+    display: grid;
+  
+}
+main form{
+    float: right;
+    place-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+    background-color: #0e3958;
+}
+article{
+    float: left;
+    margin-left: 10px;
+}
+
+main {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(226, 226, 226);
+}
+
+
+#registrarse {
+    display: grid;
+    place-content: center;
+    position: relative;
+    top: -40px;
+    font-size: 50px;
+}
+
+#registro {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #157195;
+    border-bottom: -100px;
+   border-bottom: -100px;
+    display: grid;
+    place-content: center;
+}
+.necesario {
+    width: 300px;
+    height: 20px;
+    border: none;
+}
+
+.datos{
+    position: relative;
+    left: 10px;
+}
+
+input {
+    margin: 10px;
+    border: none;
+}
+
+#id-enviar {
+    display: grid;
+    place-content: center;
+    background-color: brown;
+}
